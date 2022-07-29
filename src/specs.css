@@ -1,0 +1,113 @@
+.specs {
+    margin-top: 126px;
+    height: 1120px;
+}
+
+.specs__title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--color-black);
+    grid-column: 1 / 7;
+    margin-bottom: 44px;
+}
+
+.specs__accordion {
+    grid-column: 1 / 13;
+    background: var(--color-black);
+    border-radius: 24px;
+    height: 88px;
+    text-align: left;
+}
+
+
+.main {
+    grid-row: 2 / span 9;
+    border-radius: 24px 24px 0px 0px;
+    border-bottom: 1px solid var(--color-text);
+}
+
+.bicycle {
+    grid-row: 3;
+    display: none;
+}
+
+.electronics {
+    grid-row: 4;
+    display: none;
+}
+
+.specs__accordion_title {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding: 24px 0 24px 40px;
+}
+
+.specs__accordion_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-right: 24px;
+}
+
+.count {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-text);
+    border-radius: 8px;
+}
+
+.arrow {
+    padding-right: 46px;
+}
+
+.specs__accordion_full {
+    background-color: var(--color-black);
+    height: 688px;
+}
+
+.accordion__item-spec__list {
+    
+}
+
+.accordion__item-spec {
+    height: auto;
+    background-color: var(--color-black);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion__item-spec:not(:last-child) {
+    border-bottom: 1px solid var(--color-text);
+}
+
+.item__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-grey);
+}
+
+.item__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-white);
+    width: 740px;
+    padding-right: 40px;
+}
+

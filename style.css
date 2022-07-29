@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+body {
+  font-family: 'Ubuntu', 'Sans-serif';
+  font-style: normal;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+:root {
+  --color-grey: #ACACAC;
+	--color-white: #FFFFFF;
+	--color-main: #F52D2D;
+	--color-black: #181818;
+	--color-text: #393939;
+	--color-green: #6A7870;
+	--color-cream: #E8DFC8;
+
+  /* grid variables*/
+  --grid-col-count: 12;
+  --grid-gutter: 20px;
+  --grid-width: 80px;
+
+  --container-width: calc(var(--grid-col-count) * var(--grid-width) + (var(--grid-gutter) * (var(--grid-col-count) - 1)));
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container,
+.layout-grid {
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
+.layout-grid {
+  display: grid;
+	grid-template-columns: repeat(var(--grid-col-count), var(--grid-width));
+	gap: var(--grid-gutter);
+}

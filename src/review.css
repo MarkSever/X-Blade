@@ -1,0 +1,70 @@
+.review {
+    margin-top: 126px;
+}
+
+.review__title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    grid-column: 1 / 4;
+    margin-bottom: 44px;
+    color: var(--color-black);
+}
+
+.review__quotes {
+    width: 80px;
+    height: 80px;
+    background-image: url(/assets/review__quotes.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.review__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--color-text);
+    grid-row: 2;
+    grid-column: 4 / 11;
+}
+
+.review__container-btn {
+    margin-top: 28px;
+    grid-column: 4 / 9;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review__btn-person1 {
+    background-image: url(/assets/review__pesron-btn/person1__full.svg);
+    width: 270px;
+    height: 80px;
+    background-color: transparent;
+}
+
+.review__btn-person2 {
+    background-image: url(/assets/review__pesron-btn/person2.png);
+    width: 56px;
+    height: 56px;
+    background-color: transparent;
+}
+
+.review__btn-person3 {
+    background-image: url(/assets/review__pesron-btn/person3.png);
+    width: 56px;
+    height: 56px;
+    background-color: transparent;
+}
+
+.review__btn-person4 {
+    background-image: url(/assets/review__pesron-btn/person4.png);
+    width: 56px;
+    height: 56px;
+    background-color: transparent;
+}
+
